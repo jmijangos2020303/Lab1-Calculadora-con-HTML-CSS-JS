@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+<head>
+    <title>Inicio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body onload="init()" style="background: url(assets/images/3433839.jpg) no-repeat; background-size: cover;">
+
+
+    <div class="wrapper">
+
+
+        <!-- Banner -->
+        <div class="banner-wrapper">
+            <header>
+                <div class="header-inner">
+                    <a href="#" id="logo">
+                        <img src="assets/images/pics/Logo.png" alt="LogoPersonal">
+
+
+                    </a>
+
+
+                    <nav>
+                        <a href="#" id="menu-icon">
+                            <i class="fa fa-bars"></i>
+
+
+                        </a>
+                    </nav>
+                </div>
+            </header>
+            <!-- SLIDER -->
+            <div id="slide-wrap">
+
+                <table class="calculadora">
+                    <tr>
+                        <td colspan="4"> <span id="resultado"></span> </td>
+                    </tr>
+                    <tr>
+                        <td> <button id="siete">7</button> </td>
+                        <td> <button id="ocho">8</button> </td>
+                        <td> <button id="nueve">9</button> </td>
+                        <td> <button id="division">/</button> </td>
+                    </tr>
+                    <tr>
+                        <td> <button id="cuatro">4</button> </td>
+                        <td> <button id="cinco">5</button> </td>
+                        <td> <button id="seis">6</button> </td>
+                        <td> <button id="multiplicacion">*</button> </td>
+                    </tr>
+                    <tr>
+                        <td> <button id="uno">1</button> </td>
+                        <td> <button id="dos">2</button> </td>
+                        <td> <button id="tres">3</button> </td>
+                        <td> <button id="resta">-</button> </td>
+                    </tr>
+                    <tr>
+                        <td> <button id="igual">=</button> </td>
+                        <td> <button id="reset">C</button> </td>
+                        <td> <button id="cero">0</button> </td>
+                        <td> <button id="suma">+</button> </td>
+                    </tr>
+
+                </table>
+
+            </div>
+        </div>
+
+
+        <br>
+        <br>
+        <br>
+        <br><br>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="banner-wrapper">
+                <div class="icon-text">
+                    <div class="icon-text-icon">
+                        <ul class="footer-nav">
+
+                        </ul>
+                    </div>
+                    <div class="icon-text-text">
+                        <section id="portfolio">
+                            <h3>CALCULADORA</h3>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+        <!-- SCRIPTS -->
+        <script>
+            $(document).ready(function () {
+                $('.slider1').bxSlider({
+                    mode: 'fade',
+                });
+                $('.slider2').bxSlider({
+                    mode: 'fade',
+                });
+                $('.slider3').bxSlider({
+                    mode: 'fade',
+                });
+            });
+        </script>
+        <script src="funcionalidad.js"></script>
+</body>
+
+
+</html>
